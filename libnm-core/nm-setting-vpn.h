@@ -48,6 +48,8 @@ G_BEGIN_DECLS
 #define NM_SETTING_VPN_SECRETS         "secrets"
 #define NM_SETTING_VPN_TIMEOUT         "timeout"
 
+#define NM_VPN_INTERACTIVE_SECRET_PREFIX "x-vpn-interactive-"
+
 /**
  * NMSettingVpn:
  *
