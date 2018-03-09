@@ -15,7 +15,7 @@
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  *
- * (C) Copyright 2010 Red Hat, Inc.
+ * (C) Copyright 2010 - 2018 Red Hat, Inc.
  */
 
 #include "nm-default.h"
@@ -38,6 +38,7 @@ static const SettingAlias alias_list[] = {
 	{ NM_SETTING_WIRED_SETTING_NAME, "ethernet" },
 	{ NM_SETTING_WIRELESS_SETTING_NAME, "wifi" },
 	{ NM_SETTING_WIRELESS_SECURITY_SETTING_NAME, "wifi-security" },
+	{ NM_SETTING_WPAN_SETTING_NAME, "wpan" },
 };
 
 const char *
