@@ -31,6 +31,7 @@ Notable changes included in this snapshot so far include:
   type. The internal client is not affected by the change.
 * DNS setting rc-manager=file now always follows dangling symlinks
   instead of replacing /etc/resolv.conf with a plain file.
+* Added support for IEEE 802.15.4 and 6LowPAN devices.
 
 The following features were backported to 1.10.x releases from 1.10.0 to
 1.10.8 are also present in NetworkManager-1.12:
